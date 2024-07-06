@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Jay Surani</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="./assets/img/resume.pdf" target="_blank" class="nav__link">Resume</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Jay Surani</span><br> Student Of NITK<br>From Amreli,<br> Gujarat</h1>
+
+            
+                </div>
+
+            
+
+                <!-- <div class="home__img">
+                  <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/jay1.jpg"/>
+                        </g>
+                    </svg>
+                </div> -->
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/jay1.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        
+                        <h2  class="about__subtitle">I'am Jay Surani</h2>
+                        <p class="about__text">M.Tech Student of CSE-IS(2023 - 25) at NITK, Surathkal.
+                            <br>I am passionate about learning new technologies, exploring innovative ideas and contributing to the growth of the industry and leverage my knowledge to create solutions that can address real-world problems.
+
+                        </p>           
+                        <br><br><br><br>
+                        <div class="tab-titles">
+                       <!-- <h2 class="tab-links active-link about__text" onclick="opentab('skills')"> Skills</h2> -->
+                        <h2 class="tab-links about__text" onclick="opentab('education')"> Education</h2>
+                        <h2 class="tab-links about__text" onclick="opentab('languages')"> Languages</h2>
+                       
+                    </div>
+                        
+                    </div>   
+                    <div class="tab-titles">
+                       
+                    </div>
+                    <!-- <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technologies</span><br>HTML, CSS, Bootstrap, NodeJS, PHP, Python, C++</li>
+                            <li><span>Database</span><br>MySQL, Django</li>
+                            <li><span>Software and Tools</span><br>Visual Studio Code, Texmaker, Pycharm, Linux</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Master of Technology - MTech in Computer Science and Engineering - Information Security 2023-2025</span><br>National Institute of Technology Karnataka, surathkal, India</li>
+                            <li><span>Bachelor of Technology - BTech in Computer Engineering 2018-2022</span><br>G H Patel College Of Engineering And Technology, Anand, Gujarat, India</li>
+                            <li><span>Higher Secondary School - 2016-2018</span><br>School Of Science(SOS) Rajkot Gujarat, India</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>English</span><br></i></span>Professional working proficiency</li>
+                            <li><span>Hindi</span><br></i></span>Native or bilingual proficiency</li>
+                            <li><span>Gujarati</span><br></i></span>Native or bilingual proficiency</li>
+                        </ul>
+                    </div>                               
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">
+                    
+                           <ul> 
+                            <li><span style="color: #3e6ff4;">Technologies</span><br>HTML , CSS , NodeJS , PHP , C++ , AWS , OOP </li>
+                            <li><span style="color: #3e6ff4;">Database</span><br>MySQL</li>
+                            <li><span style="color: #3e6ff4;">Software and Tools</span><br> Git , Visual Studio Code , Texmaker , Linux</li> </p>
+                            </ul>
+                
+                            <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">AWS</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-brands fa-java skills__icon"></i>
+                                <span class="skills__name">OOP</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <div id="projects">
+                <div class="container">
+                    <h1 class="sub-title"></h1>
+                    <h2 class="section-title">Projects</h2>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="./assets/img/faculty.PNG" alt="work">
+                            <div class="layer">
+                                <h3>Faculty Feedback Form</h3>
+                                <p> students of school or college can fill form for where students need more help in study
+                                     faculty can login through their Id password and able to check students response
+                                    </p>
+                                <!-- <a href="https://github.com/satyarthratnani/Facemaskdetection"><i class='bx bx-link-external'></i></a> -->
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="./assets/img/123.png" alt="work">
+                            <div class="layer">
+                                <h3>Weather App</h3>
+                                <p> A weather forecast app which provides forecast details of address provided by user.App also allows user to fetch forecast details of his current location.It uses REST APIs to fetch geocoding and weather data
+
+
+
+                                    </p>
+                                <!-- <a href="https://github.com/satyarthratnani/G9FoodRecipeGeneratorProject"><i class='bx bx-link-external'></i></a> -->
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- <a href="https://github.com/satyarthratnani" class="btn">See More</a> -->
+                </div>
+            </div>
+            
+            <!--===== WORK =====-->
+            <div id="work">
+                <div class="container">
+                    <h1 class="sub-title"></h1>
+                    <h2 class="section-title">Work</h2>
+                    <div class="work-list">
+                        
+                        <div class="work" style="margin-left: 23.5rem;">
+                            <img src="./assets/img/Donor-PNG-Image.png" alt="work">
+                            <div class="layer">
+                                <h3>Blood Bank App</h3>
+                                <p> It is basically an app to reduce the time lag between searching and contacting different blood donors across the area in just few clicks.
+                                     Donor will be prompted to enter an individual's details, like name, phone number, and blood type. 
+                                     after that your contact details will be saved in the database. at the urgent time of a blood requirement, he can quickly check for contacts matching a particular or related blood group and reach out to them via phone call through application.
+                                      provides list of donors in your city/area and also provides a google map function which shows all the donors and one can track them easily.
+
+                                    </p>
+                                <!-- <a href="https://github.com/satyarthratnani/G9FoodRecipeGeneratorProject"><i class='bx bx-link-external'></i></a> -->
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        
+            
+            
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <a class="contact__icon" style="color: black;" href="mailto:jaysurani333@gmail.com"><i class='bx bxs-paper-plane contact__icon'></i> jaysurani333@gmail.com</a>
+                    <p class="contact__icon" style="color: black;"><i class='bx bxs-phone-call contact__icon' ></i> +91 8469446768</p>
+                    <div class="social-icons">
+        
+                 <div class="home__social">
+
+                    <a href="https://www.linkedin.com/in/jay-surani-b17a12184/" style="font-size: 2.5rem;" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" style="font-size: 2.5rem;" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>   
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">JS</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <!-- <p class="footer__copy">&#169;  All rigths reserved</p> -->
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+    
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+</html>
